@@ -1,0 +1,6 @@
+1.
+type Config struct {
+	DbConn   string `json:"dbConn,omitempty"`
+}
+有了omitempty后，如果DbConn为空， 则生成的json中没有DbConn字段
+2.
